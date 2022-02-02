@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>K-Hub</title>
+  <link rel="icon" href="logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
+    nav{
+	background-color: #800000;
+	}
+	
+	.navbar {
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	}
+	
+     h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8rem;
+     }
+
+     @media (max-width: 544px) {  
+     h1 {font-size:1.5rem;} /*1rem = 16px*/
+     }
+	 
+	 p{
+	 font-family: 'Poppins', sans-serif;
+	 font-size: 0.8rem;
+     }
+	 
+	 .h-divider{
+     margin-top:50px;
+     width:100%;
+     border-top:3px solid #800000;
+	 }
+	
+	 footer{
+	 font-family: 'Poppins', sans-serif;
+	 margin-bottom: 10px;
+	 margin-top: -20px;
+	 }
+	 
+	 h4{
+	 font-family: 'Poppins', sans-serif;
+	 font-size: 1rem;
+     }
+	 
+	 h2{
+	 font-family: 'Poppins', sans-serif;
+	 font-size: 1.5rem;
+     }
+	 
+	 table, thead, tbody{ 
+     width: 100%; 
+	 font-size: 0.8rem;
+	 font-family: 'Poppins', sans-serif;
+     border-collapse: collapse;
+     }	
+	 
+     @media (max-width: 544px) {  
+     tr {font-size:0.5rem;} /*1rem = 16px*/
+     }
+	 
+	 form{
+	 font-family: 'Poppins', sans-serif;
+	 font-size: 1rem;
+	 }
+   </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand" href="#"><img src="https://cmc.pshs.edu.ph/images/logo-trans.png" class="my-auto float-left" alt="Logo" style="width:40px; margin-right: 10px;">K-hub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+		<a class="nav-link" href="dash.html">DASHBOARD</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="sched.html">SCHEDULE</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="subjgrades.html">GRADES</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="about.html" style="margin-right: 20px;">ABOUT</a>
+	  </li>
+	  <li class="nav-item dropdown my-auto">
+		 <img src="https://comicvine.gamespot.com/a/uploads/square_medium/11/111746/6407210-profesor_utonio_apariencia.png" alt="Logo" class="my-auto rounded-circle" style="height: 40px; width: 40px; margin-right: 5px;">
+			<a class="nav-item dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white">
+			</a>
+			<div class="dropdown-menu dropdown-menu-right" role="menu" style="margin-top: 25px; border:solid 3px; font-size: 15px;">
+				<a class="dropdown-item" href="#">Student name: <br> Professor Drake Utonium</a>
+				<hr style="border-top: dotted 3px;"/>
+				<a class="dropdown-item" href="#">My Profile</a>
+				<a class="dropdown-item" href="#">Messages</a>
+				<a class="dropdown-item" href="#">Settings</a>
+				<a class="dropdown-item" href="login.html">Log Out</a>
+			</div>
+	  </li>    
+    </ul>
+  </div>  
+</nav>
+
+<br><br>
+
+<div class="container">
+<h1>2Q Lab Exercise 2: Balitang News</h1>
+<h4>Please submit in .html or .rar file type</h4>
+</div>
+
+<br>
+
+<div class="container table-responsive">
+<h2>Submission Status</h2>
+<table class="table table-light rounded width-100%">
+  <tbody>
+    <tr>
+      <td class="col-3 table-secondary">Submission Status</td>
+	  <td class="col-9 table-success">Submitted</td>
+    </tr>
+	<tr>
+      <td class="col-3">Grading Status</td>
+	  <td class="col-9 table-success">Graded</td>
+    </tr>
+	<tr>
+      <td class="col-3 table-secondary">Due date</td>
+	  <td class="col-9 table-secondary">Friday, 28 January 2022, 11:59PM</td>
+    </tr>
+	<tr>
+      <td class="col-3">Time Remaining</td>
+	  <td class="col-9 table-success">Assignment was submitted 1 second early</td>
+    </tr>
+	<tr>
+      <td class="col-3 table-secondary">Grading Criteria</td>
+	  <td class="col-9 table-success">
+	     <table class="table table-bordered">
+         <tr class="table-secondary">
+         <td>Objectives</td>
+         <td>No objective has been satisfied by the output. <br> <span class="text-sucess">1 point</span></td>
+		 <td>Less than half of the objectives have been satisfied. <br> <span class="text-sucess">4 points</span></td>
+		 <td>More than half but not all objectives have been satisfied. <br> <span class="text-sucess">7 points</span></td>
+		 <td>All objectives have been satisfied by the submitted output. <br> <span class="text-sucess">10 points</span></td>
+         </tr>
+		 <tr>
+         <td>Design</td>
+         <td>Three or more criteria missing. <br> <span class="text-sucess">1 point</span></td>
+		 <td>Two criteria missing. <br> <span class="text-sucess">4 points</span></td>
+		 <td>One criteria missing. <br> <span class="text-sucess">7 points</span></td>
+		 <td>Good layout among elements. Quality images have been used. Harmonious color combinations. Typography complements the theme of the submission. <br> <span class="text-sucess">10 points</span></td>
+         </tr>
+		 <tr class="table-secondary">
+         <td>W3C Validation</td>
+         <td>More than 10 errors or warnings. <br> <span class="text-sucess">1 point</span></td>
+		 <td>6 to 10 errors or warnings. <br> <span class="text-sucess">4 points</span></td>
+		 <td>1 to 5 errors or warnings. <br> <span class="text-sucess">7 points</span></td>
+		 <td>Page has no errors or warnings. <br> <span class="text-sucess">10 points</span></td>
+         </tr>
+		 <tr>
+         <td>Timeliness/td>
+         <td>Submitted beyond 7 days after deadline. <br> <span class="text-sucess">1 point</span></td>
+		 <td>Submitted within 7 days after deadline. <br> <span class="text-sucess">4 points</span></td>
+		 <td>Submitted within 3 days after deadline. <br> <span class="text-sucess">7 points</span></td>
+		 <td>Submitted on time. <br> <span class="text-sucess">10 points</span></td>
+         </tr>
+     </table></td>
+    </tr>
+	<tr>
+      <td class="col-3">Last Modified</td>
+	  <td class="col-9">Friday, 28 January 2022, 11:58PM</td>
+    </tr>
+	<tr>
+	<tr>
+      <td class="col-3 table-secondary">File Submission</td>
+	  <td class="col-9 table-secondary text-primary"><img src="html.png" alt="Logo" class="my-auto rounded-circle" style="height: 20px; width: 20px; margin-right: 5px;"><u>labexercise1.html</u></td>
+    </tr>
+    <tr>
+      <td class="col-3">Submission Comments</td>
+	  <td class="col-9 text-primary"><img src="comment.png" alt="Logo" class="my-auto rounded-circle" style="height: 20px; width: 20px; margin-right: 5px;"><u>Comments(0)</u></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<br>
+
+<div class="container table-responsive">
+<h2>Submission Status</h2>
+<table class="table table-light rounded width-100%">
+  <tbody>
+	<tr>
+      <td class="col-3 table-secondary">Grade</td>
+	  <td class="col-9 table-secondary">
+	     <table class="table table-bordered">
+         <tr>
+         <td>Objectives</td>
+         <td>No objective has been satisfied by the output. <br> <span class="text-sucess">1 point</span></td>
+		 <td>Less than half of the objectives have been satisfied. <br> <span class="text-sucess">4 points</span></td>
+		 <td>More than half but not all objectives have been satisfied. <br> <span class="text-sucess">7 points</span></td>
+		 <td class="table-success">All objectives have been satisfied by the submitted output. <br> <span class="text-sucess">10 points</span></td>
+         </tr>
+		 <tr>
+         <td>Design</td>
+         <td>Three or more criteria missing. <br> <span class="text-sucess">1 point</span></td>
+		 <td>Two criteria missing. <br> <span class="text-sucess">4 points</span></td>
+		 <td>One criteria missing. <br> <span class="text-sucess">7 points</span></td>
+		 <td class="table-success">Good layout among elements. Quality images have been used. Harmonious color combinations. Typography complements the theme of the submission. <br> <span class="text-sucess">5 points</span></td>
+         </tr>
+		 <tr>
+         <td>W3C Validation</td>
+         <td>More than 10 errors or warnings. <br> <span class="text-sucess">1 point</span></td>
+		 <td>6 to 10 errors or warnings. <br> <span class="text-sucess">4 points</span></td>
+		 <td>1 to 5 errors or warnings. <br> <span class="text-sucess">7 points</span></td>
+		 <td class="table-success">Page has no errors or warnings. <br> <span class="text-sucess">5 points</span></td>
+         </tr>
+		 <tr>
+         <td>Timeliness</td>
+         <td>Submitted beyond 7 days after deadline. <br> <span class="text-sucess">1 point</span></td>
+		 <td>Submitted within 7 days after deadline. <br> <span class="text-sucess">4 points</span></td>
+		 <td>Submitted within 3 days after deadline. <br> <span class="text-sucess">7 points</span></td>
+		 <td class="table-success">Submitted on time. <br> <span class="text-sucess">5 points</span></td>
+		 <br>
+         </tr>
+     </table>
+	 <p>25/25</p></td>
+    </tr>
+	<tr>
+      <td class="col-3">Graded on</td>
+	  <td class="col-9">Saturday, 29 January 2022, 10:00AM</td>
+    </tr>
+	<tr>
+	<tr>
+      <td class="col-3 table-secondary">Graded by</td>
+	  <td class="col-9 table-secondary"><img src="mayor.png" alt="Logo" class="my-auto rounded-circle" style="height: 20px; width: 20px; margin-right: 5px;">Mayor of Townsville</td>
+    </tr>
+    <tr>
+      <td class="col-3">Feedback Comments</td>
+	  <td class="col-9 text-primary"><img src="comment.png" alt="Logo" class="my-auto rounded-circle" style="height: 20px; width: 20px; margin-right: 5px;"><u>Comments(1)</u><br><span class="text-dark">slay</span></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<br>
+
+<div class="h-divider"></div>
+
+<footer class="page-footer font-small">
+  <div class="container text-center text-md-left mt-5">
+    <div class="container row mt-3">
+      <div class="col-md-9 col-lg-9 col-xl-9 mx-auto mb-9">
+        <h6 class="text-uppercase font-weight-bold">PSHS Knowledge Hub - CLC</h6>
+        <hr class="h-divider mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>We are the leading science high school in the Asia Pacific Region preparing our scholars to become globally competitive Filipino 
+		scientists equipped with 21st century skills and imbued with the core values of truth, excellence, and service to nation.</p>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+        <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
+        <hr class="h-divider mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+         Tel. No: (045) 499 0136
+        </p>
+        <p>
+          Email: khub@clc.pshs.edu.ph
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: PSHS-CLC</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>K-Hub</title>
+  <link rel="icon" href="logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
+    
+    nav{
+	background-color: #800000;
+	}
+	
+	.navbar {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8rem;
+	}
+	
+     h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8rem;
+     }
+
+     @media (min-width: 544px) {  
+     h1 {font-size:2rem;} /*1rem = 16px*/
+     }
+	 
+	 table, thead, tbody{ 
+     width: 100%; 
+	 font-family: 'Poppins', sans-serif;
+     border-collapse: collapse;
+     }	 
+	 
+	 @media (max-width: 992px) {  
+     .img-responsive {float: left;} /*1rem = 16px*/
+     }
+	 
+	 p{
+	 font-family: 'Poppins', sans-serif;
+	 font-size: 0.8rem;
+     }
+	 
+	 h5{
+	 font-family: 'Poppins', sans-serif;
+	 text-align: center
+	 }
+	 
+	 @media (max-width: 992px) {  
+     h5 {font-size: 1.3rem; text-align: left; margin-left: 20px} /*1rem = 16px*/
+     }
+	 
+	 @media (min-width: 992px) {  
+     h5 {font-size: 1rem;} /*1rem = 16px*/
+     }
+
+     @media (max-width: 992px) {  
+     .well {display: flex; align-items: center;} /*1rem = 16px*/
+     }
+
+	 .h-divider{
+     margin-top:50px;
+     width:100%;
+     border-top:3px solid #800000;
+	 }
+	
+	 footer{
+	 font-family: 'Poppins', sans-serif;
+	 margin-bottom: 10px;
+	 margin-top: -50px;
+	 }
+	 
+	 h6{
+	 margin-top: 30px;
+	 }
+   </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand" href="#"><img src="https://cmc.pshs.edu.ph/images/logo-trans.png" class="my-auto float-left" alt="Logo" style="width:40px; margin-right: 10px;">K-hub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+		<a class="nav-link" href="dash.html">DASHBOARD</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="sched.html">SCHEDULE</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="subjgrades.html">GRADES</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="about.html" style="margin-right: 20px;">ABOUT</a>
+	  </li>
+	  <li class="nav-item dropdown my-auto">
+		 <img src="https://comicvine.gamespot.com/a/uploads/square_medium/11/111746/6407210-profesor_utonio_apariencia.png" alt="Logo" class="my-auto rounded-circle" style="height: 40px; width: 40px; margin-right: 5px;">
+			<a class="nav-item dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white">
+			</a>
+			<div class="dropdown-menu dropdown-menu-right" role="menu" style="margin-top: 25px; border:solid 3px; font-size: 15px;">
+				<a class="dropdown-item" href="#">Student name: <br> Professor Drake Utonium</a>
+				<hr style="border-top: dotted 3px;"/>
+				<a class="dropdown-item" href="#">My Profile</a>
+				<a class="dropdown-item" href="#">Messages</a>
+				<a class="dropdown-item" href="#">Settings</a>
+				<a class="dropdown-item" href="login.html">Log Out</a>
+			</div>
+	  </li>    
+    </ul>
+  </div>  
+</nav>
+
+<br><br>
+
+       <div class="container">
+         <h1>About the Creators</h1>
+		 
+		 <br>
+       
+        <div class="row">
+        <div class="col-sm-12 rounded">
+          <div class="well">
+           <img src="prof.png" class="my-auto rounded-circle img-responsive mx-auto d-block" style="width: 200px;">
+		   <h5>The Professor AKA Leon Alevin P. Sicat</h5>
+          </div>
+        </div>
+		</div>
+		
+		<br>
+		
+		<div class="row">
+       <div class="col-lg-3 mb-4">
+          <div class="well">
+           <img src="bliss.png" class="rounded-circle img-responsive mx-auto d-block" style="width: 200px;">
+		   <h5>Blisstina or Bliss AKA Allelee Venice L. Celis </h5>
+          </div>
+        </div>
+		<div class="col-lg-3 mb-4">
+          <div class="well">
+           <img src="blossom.png" class="rounded-circle img-responsive mx-auto d-block" style="width: 200px;">
+		   <h5>Blossom AKA Kim Clarisse L. Mendoza</h5>
+          </div>
+        </div>
+		<div class="col-lg-3 mb-4">
+          <div class="well">
+           <img src="buttercup.png" class="rounded-circle img-responsive mx-auto d-block" style="width: 200px;">
+		   <h5>Buttercup AKA Elisha Arwen A. Medrano</h5>
+          </div>
+        </div>
+		<div class="col-lg-3 mb-4">
+          <div class="well">
+           <img src="bubbles.png" class="rounded-circle img-responsive mx-auto d-block" style="width: 200px;">
+		   <h5>Bubbles AKA Sofhia Dayanne C. Ortega</h5>
+          </div>
+        </div>
+		</div>
+		</div>
+
+<div class="h-divider"></div>
+
+<footer class="page-footer font-small">
+  <div class="container text-center text-md-left mt-5">
+    <div class="container row mt-3">
+      <div class="col-md-9 col-lg-9 col-xl-9 mx-auto mb-9">
+        <h6 class="text-uppercase font-weight-bold">PSHS Knowledge Hub - CLC</h6>
+        <hr class="h-divider mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>We are the leading science high school in the Asia Pacific Region preparing our scholars to become globally competitive Filipino 
+		scientists equipped with 21st century skills and imbued with the core values of truth, excellence, and service to nation.</p>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+        <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
+        <hr class="h-divider mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+         Tel. No: <br> (045)-499-0136
+        </p>
+        <p>
+          Email: <br> khub@clc.pshs.edu.ph
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: PSHS-CLC</div>
+</footer>
+
+</body>
+</html>
+
+

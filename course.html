@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="en">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Course Page</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+		<style>
+			.navbar {
+				background-color: #800000;
+				font-family: 'Poppins', sans-serif;
+				font-size: 15px;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark">
+  <a class="navbar-brand" href="#"><img src="https://cmc.pshs.edu.ph/images/logo-trans.png" class="my-auto float-left" alt="Logo" style="width:40px; margin-right: 10px;">K-hub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+		<a class="nav-link" href="dash.html">DASHBOARD</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="sched.html">SCHEDULE</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="subjgrades.html">GRADES</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="#" style="margin-right: 20px;">ABOUT</a>
+	  </li>
+	  <li class="nav-item dropdown my-auto">
+		 <img src="https://comicvine.gamespot.com/a/uploads/square_medium/11/111746/6407210-profesor_utonio_apariencia.png" alt="Logo" class="my-auto rounded-circle" style="height: 40px; width: 40px; margin-right: 5px;">
+			<a class="nav-item dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white">
+			</a>
+			<div class="dropdown-menu dropdown-menu-right" role="menu" style="margin-top: 25px; border:solid 3px; font-size: 15px;">
+				<a class="dropdown-item" href="#">Student name: <br> Professor Drake Utonium</a>
+				<hr style="border-top: dotted 3px;"/>
+				<a class="dropdown-item" href="#">My Profile</a>
+				<a class="dropdown-item" href="#">Messages</a>
+				<a class="dropdown-item" href="#">Settings</a>
+				<a class="dropdown-item" href="#">Log Out</a>
+			</div>
+	  </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div id="header">
+  <h1>Computer Science</h1>
+    <img class= .img-responsive src="https://i.gifer.com/9SRo.gif" alt=photo width="90%"style="margin-right: auto; margin-left: auto; display: block;">
+</div>
+<style>
+ #header h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+	font-size: 2rem;
+ }
+ 
+ @media (min-width: 544px) {  
+    #header h1{font-size:3rem;} /*1rem = 16px*/
+ }
+			 
+@media (min-width: 768px) { 
+    #header h1{font-size:3.5rem;} /*1rem = 16px*/
+ }
+</style>
+    <hr>
+    <style>  
+hr  {  
+   width: 90%;  
+   height: 1px;  
+   margin-bottom: 20px;  
+   margin-right: auto;  
+   margin-left: auto;  
+   margin-top: 30px;  
+   border-width: 3px;  
+   border-color: #800000;  
+}  
+</style>  
+
+
+<div id="Announcements">
+<a1>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/forum/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%;">
+<a href="" style="color:black;">Announcements</a></a1>
+<style>
+ #Announcements a1{
+   
+   font-size: 1em;
+   font-family: 'Poppins', sans-serif;
+ }
+</style>
+</div>
+
+
+<div id="Meet">
+    <p></p>
+    <m1> 
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/url/1642486390/icon" class="my-auto float-left" alt="Meet" style="width:25px; margin-right:5px; margin-left:13%;">
+<a href="https://meet.google.com/jox-vkzs-sqs">Google Meet Link</a>
+</m1>
+<style>
+ #Meet m1{
+   font-size: 1em;
+   font-family: 'Poppins', sans-serif;
+   text-decoration-line: none;
+ }
+</style>
+</div>
+
+
+<div id="Sync">
+<p></p>
+<s1>Synchronous Schedule</s1>
+<p style="margin-left:13%; font-size: 1em; font-family: 'Poppins', sans-serif;">• Fridays at 10:30am - 11:20am via Google Meet.</p>
+<s1>Asynchronous Schedule</s1>
+<p style="margin-left:13%; font-size: 1em; font-family: 'Poppins', sans-serif;">• Wednesdays at 10:30am - 11:20am <br>• Thursdays at 8:30am - 9:20am</p>
+<style>
+ #Sync s1{
+   font-size: 1em;
+   font-family: 'Poppins', sans-serif;
+   margin-left: 13%;
+ }
+</style>
+</div>
+
+
+    <hr>
+    <style>  
+hr  {  
+   width: 90%;  
+   height: 1px;  
+   margin-bottom: 20px;  
+   margin-right: auto;  
+   margin-left: auto;  
+   margin-top: 30px;  
+   border-width: 3px;  
+   border-color: #800000;  
+}  
+</style> 
+
+
+<div id="Lessons">
+<h1>Slides and Recordings</h1>
+<style>
+ #Lessons h1{
+   text-align: center;
+   font-size: 2em;
+   font-family: 'Poppins', sans-serif;
+   
+ }
+</style>
+</div>
+
+
+<div id="Slides">
+<sl>
+    <img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/core/1642486390/f/pdf-24" class= "my-auto float-left" alt="PDF1" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+    <a href ="https://khub.clc.pshs.edu.ph/pluginfile.php/60080/mod_resource/content/0/01%20-%20HTML%205.pdf" attributes-list download style="color:black;"> Slide 01 - HTML 5</a><br>
+    <img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/core/1642486390/f/pdf-24" class= "my-auto float-left" alt="PDF2" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+    <a href ="https://khub.clc.pshs.edu.ph/pluginfile.php/61051/mod_resource/content/0/02%20-%20RWD%20Intro.pdf" attributes-list download style="color:black;"> Slide 02 - RWD Intro</a><br>
+    <img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/core/1642486390/f/pdf-24" class= "my-auto float-left" alt="PDF3" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+    <a href ="https://khub.clc.pshs.edu.ph/pluginfile.php/61377/mod_resource/content/0/03%20-%20Bootstrap.pdf" attributes-list download style="color:black;"> Slide 03 - Bootstrap</a><br>
+    <img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/url/1642486390/icon" class= "my-auto float-left" alt="Live1" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+    <a href ="https://drive.google.com/file/d/1HicBvMSp7BFaZeKYWTK0jVDEL7uSRVjh/view"> Live Discussion: HTML 5</a><br>
+    <img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/url/1642486390/icon" class= "my-auto float-left" alt="Live1" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+    <a href ="https://drive.google.com/file/d/1lraXgAMiIcGPOapOnmtPRtAUEHbacmBm/view"> Live Discussion: RWD Intro</a><br>
+    <img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/url/1642486390/icon" class= "my-auto float-left" alt="Live1" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+    <a href ="https://drive.google.com/file/d/1QJp7dsMFG45bnJTo4LmFYM8qF40fZbWG/view"> Live Discussion: Bootstrap</a>
+</sl>
+
+<style>
+ #Slides sl{
+   font-size: 1em;
+   font-family: 'Poppins', sans-serif;
+ }
+</style>
+</div>
+
+
+    <hr>
+    <style>  
+hr  {  
+   width: 90%;  
+   height: 1px;  
+   margin-bottom: 20px;  
+   margin-right: auto;  
+   margin-left: auto;  
+   margin-top: 30px;  
+   border-width: 3px;  
+   border-color: #800000;  
+}  
+</style> 
+
+
+<div id="Assessments">
+<h1>Assessments</h1>
+<style>
+ #Assessments h1{
+   text-align: center;
+   font-size: 2em;
+   font-family: 'Poppins', sans-serif;
+ }
+</style>
+</div>
+
+
+<div id="Quiz">
+<q1>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/assign/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+<a href="" style="color:black;">2Q Lab Exercise 1: Cafe/Restaurant Page</a><br>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/assign/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+<a href="" style="color:black;">2Q Lab Exercise 2: Balitang News</a><br>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/assign/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+<a href="" style="color:black;">2Q Project: K-Hub, Reimagined</a><br>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/choicegroup/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+<a href="" style="color:black;">2Q Project Groups</a>
+</q1>
+<style>
+ #Quiz q1{
+   
+   font-size: 1em;
+   font-family: 'Poppins', sans-serif;
+ }
+</style>
+</div>
+
+
+    <hr>
+    <style>  
+hr  {  
+   width: 90%;  
+   height: 1px;  
+   margin-bottom: 20px;  
+   margin-right: auto;  
+   margin-left: auto;  
+   margin-top: 30px;  
+   border-width: 3px;  
+   border-color: #800000;  
+}  
+</style> 
+
+
+<div id="html">
+<h1>Quizzes and Grades</h1>
+<style>
+ #html h1{
+   text-align: center;
+   font-size: 2em;
+   font-family: 'Poppins', sans-serif;
+ }
+</style>
+</div>
+
+
+<div id="Grades">
+<g1>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/quiz/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+<a href="Quiz.html" style="color:black;">2Q Quiz 1</a><br>
+<img class= .img-responsive src="https://khub.clc.pshs.edu.ph/theme/image.php/moove/page/1642486390/icon" class= "my-auto float-left" alt="Announcements" style="width:25px; margin-right:5px; margin-left:13%; margin-bottom:5px; margin-top:5px;">
+<a href="Grades.html" style="color:black;">2Q Grades</a>
+</g1>
+<style>
+ #Grades g1{
+   font-size: 1em;
+   font-family: 'Poppins', sans-serif;
+ }
+</style>
+</div>
+
+<br>
+
+    <hr style="width:100%;">
+    <style>  
+hr  {  
+   width: 90%;  
+   height: 1px;  
+   margin-bottom: 20px;  
+   margin-right: auto;  
+   margin-left: auto;  
+   margin-top: 30px;  
+   border-width: 3px;  
+   border-color: #800000;  
+}  
+</style> 
+
+<footer class="page-footer font-small">
+<div class="h-divider"></div>
+  <div class="container text-center text-md-left mt-5">
+    <div class="row mt-3">
+      <div class="col-md-9 col-lg-9 col-xl-9 mx-auto mb-9">
+        <h6 class="text-uppercase font-weight-bold">PSHS Knowledge Hub - CLC</h6>
+        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>We are the leading science high school in the Asia Pacific Region preparing our scholars to become globally competitive Filipino 
+		scientists equipped with 21st century skills and imbued with the core values of truth, excellence, and service to nation.</p>
+      </div>
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3">
+        <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
+        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+         Tel. No: (045) 499 0136
+        </p>
+        <p>
+          Email: khub@clc.pshs.edu.ph
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: PSHS-CLC</div>
+</footer>
+
+<style>
+     footer{
+	 font-family: 'Poppins', sans-serif;
+	 margin-bottom: 10px;
+	 margin-top: -50px;
+	 }
+	 
+	 h6{
+	 margin-top: 30px;
+	 }
+</style>
+</body>
+</html>
+
